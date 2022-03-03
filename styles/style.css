@@ -1,0 +1,21 @@
+body{
+    background-color: #f0f;
+    animation: strobo 1s infinite;
+}
+
+h1{
+   text-align: center; 
+   color: crimson;
+}
+
+@keyframes strobo {
+    0%{
+        background-color: #f0f;
+    }
+    50%{
+        background-color: chartreuse;
+    }
+    100%{
+        background-color: #f0f;
+    }
+}
